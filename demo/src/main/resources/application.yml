@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.5.23.184:3306/lld_search?useSSL=false
+    username: smart
+    password: smart_@_2019
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
